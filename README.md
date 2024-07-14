@@ -39,7 +39,7 @@ https://mp.weixin.qq.com/s/s17zlz_vWeXqzRWTwPMeUw
 
 主要功能有申请短视频挂载能力、申请抖音直播组件能力、申请获取用户手机号能力。
 
-1、商家授权
+#### 1、商家授权
 
 商家跳转到授权页面，商家确认第三方小程序应用信息，选择要授权的小程序，勾选授权权限集，点击确定即可完成授权。
 
@@ -47,13 +47,13 @@ https://mp.weixin.qq.com/s/s17zlz_vWeXqzRWTwPMeUw
 
 ![Image text](https://pic4.zhimg.com/80/v2-9a4d9261928056407d6315586f4b4913_720w.png)
 
-2、修改小程序基本资料
+#### 2、修改小程序基本资料
 
 在这里可以直接修改小程序资料，而无需跑到各个小程序后台去修改。包括小程序头像、小程序名称、简介内容。这三个本来是独立功能，放在一起，所以修改的时候需要选择要修改哪个属性。
 
 ![Image text](https://pic3.zhimg.com/80/v2-4a57db8538d5cbc31245bbf046a9a43e_720w.png)
 
-3、服务类目管理
+#### 3、服务类目管理
 
 为授权小程序添加服务类目。由于小程序主体的不同（个人或企业），允许添加的服务类目也不同。每个小程序最多设置 5 个服务类目。在想要设置的服务类目允许的范围内，资质可以多传，但不能少传。
 
@@ -73,7 +73,7 @@ https://mp.weixin.qq.com/s/s17zlz_vWeXqzRWTwPMeUw
 
 ![Image text](https://pic2.zhimg.com/80/v2-38f4f5dcaf333ea2bade7a3d07b043ed_720w.png)
 
-4、设置服务器域名
+#### 4、设置服务器域名
 
 为授权小程序修改服务器域名（request、socket、upload、download 域名）。授权给第三方的小程序，其服务器域名只可以为第三方的服务器。服务器域名需要在第三方小程序应用的服务器域名列表内或者是第三方小程序应用服务器域名的子域名。例如第三方登记的服务器域名如为http://douyin.com，则可以直接将http://douyin.com及其子域名（如http://xxx.douyin.com）也配置到授权的小程序中。
 
@@ -83,7 +83,7 @@ https://mp.weixin.qq.com/s/s17zlz_vWeXqzRWTwPMeUw
 
 ![Image text](https://pic3.zhimg.com/80/v2-fe4709a3b81233a4692391f11ce06a0e_720w.png)
 
-5、设置业务域名
+#### 5、设置业务域名
 
 为授权小程序修改业务域名（webview 域名）。授权给第三方的小程序，其业务域名只可以为第三方的服务器。域名需要在第三方小程序应用的 webview 域名列表内或者是第三方小程序应用 webview 域名的子域名。例如第三方登记的业务域名如为http://douyin.com，则可以直接将 http://douyin.com 及其子域名（如 http://xxx.douyin.com）也配置到授权的小程序中。
 
@@ -93,13 +93,13 @@ https://mp.weixin.qq.com/s/s17zlz_vWeXqzRWTwPMeUw
 
 ![Image text](https://pic4.zhimg.com/80/v2-f5de5a24730abb4898c10b1462d584b3_720w.png)
 
-6、查询质量评级信息
+#### 6、查询质量评级信息
 
 为授权小程序查询质量评级信息。
 
 ![Image text](https://pic3.zhimg.com/80/v2-d45e2b294cf45e43a7e62e5c20fbdd9e_720w.png)
 
-7、查询信用分分值
+#### 7、查询信用分分值
 
 为授权小程序查询信用分分值。
 
@@ -107,7 +107,7 @@ https://mp.weixin.qq.com/s/s17zlz_vWeXqzRWTwPMeUw
 
 最重要的就是代小程序上传代码、提交审核、撤回审核、发布小程序、版本回退等功能。
 
-8、上传代码
+#### 8、上传代码
 
 为授权小程序提交代码。提交成功后，授权小程序具有测试版本。
 
@@ -115,19 +115,19 @@ https://mp.weixin.qq.com/s/s17zlz_vWeXqzRWTwPMeUw
 
 ![Image text](https://pic4.zhimg.com/80/v2-3ce2d10698facff6287c3ff4d6ba346f_720w.png)
 
-9、提交审核
+#### 9、提交审核
 
 为授权小程序提审代码。当上传代码成后，在这里提交审核，审核成功后，授权小程序具有审核版本。
 
 ![Image text](https://pic2.zhimg.com/80/v2-ff35134223cd10cbde924413df154ea5_720w.png)
 
-10、审核撤回
+#### 10、审核撤回
 
 为授权小程序撤回版本审核队列的待审版本。如果提交审核版本后发现问题，又不想等待审核被拒，可以使用该功能进行撤回。
 
 ![Image text](https://pic1.zhimg.com/80/v2-6bff67478c0d70f61c358307bae18b9c_720w.png)
 
-11、生成体验二维码
+#### 11、生成体验二维码
 
 为授权小程序获取小程序对应版本阶段（测试版、审核版、线上版）的二维码。在审核发布之前可以生成体验二维码进行体验。对于线上版，二维码中不包含版本号的信息，所以不管发过多少次版本，生成的二维码都是一样的，并且扫码看到的都是最新版本的内容。
 
@@ -135,25 +135,25 @@ https://mp.weixin.qq.com/s/s17zlz_vWeXqzRWTwPMeUw
 
 ![Image text](https://pic4.zhimg.com/80/v2-511d962fb1f839054c5905941b2f22b3_720w.png)
 
-12、查看版本
+#### 12、查看版本
 
 为授权小程序获取小程序版本列表信息。包括线上版本、测试版本、审核版本三种版本信息。
 
 ![Image text](https://pic1.zhimg.com/80/v2-74c8198fbbcf445f53f563326a9f4fdc_720w.png)
 
-13、发布小程序
+#### 13、发布小程序
 
 为授权小程序发布代码。审核通过之后，可以将版本发布。发布成功后，授权小程序具有线上版本。
 
 ![Image text](https://pic3.zhimg.com/80/v2-414cb4f66786dad79a28a55ce5a30352_720w.png)
 
-14、版本回退
+#### 14、版本回退
 
 为授权小程序回退代码版本。如果发现小程序上线后有问题，修复时间又比较长，可以先使用该功能将小程序代码包回退到上一个线上版本。
 
 ![Image text](https://pic4.zhimg.com/80/v2-1d3c66ddfca7f9b0a389ef8de9d0133f_720w.png)
 
-15、生成小程序码
+#### 15、生成小程序码
 
 为授权小程序获取线上版本的小程序码。该小程序码可通过任意 app 扫码打开，能跳转到开发者指定的对应字节系 app 内拉起小程序，并传入开发者指定的参数。通过该功能生成的小程序码，永久有效，暂无数量限制。
 
@@ -161,19 +161,19 @@ https://mp.weixin.qq.com/s/s17zlz_vWeXqzRWTwPMeUw
 
 ![Image text](https://pic1.zhimg.com/80/v2-7bd25c8316b68cdc6b231bab6a2cdaa4_720w.png)
 
-16、申请短视频挂载
+#### 16、申请短视频挂载
 
 为授权小程序申请「短视频挂载」能力，查询「短视频挂载」能力申请状态。
 
 ![Image text](https://pic4.zhimg.com/80/v2-2c316ec9183e58327fc41c8dcbe44be3_720w.png)
 
-17、申请抖音直播组件
+#### 17、申请抖音直播组件
 
 为授权小程序申请「抖音直播组件」能力，查询「抖音直播组件」能力申请状态。
 
 ![Image text](https://pic1.zhimg.com/80/v2-5cf087133ca1fdd2192c678ceb4692f8_720w.png)
 
-18、申请获取用户手机号
+#### 18、申请获取用户手机号
 
 为授权小程序申请「获取用户手机号」能力，查询「获取用户手机号」能力申请状态。
 
